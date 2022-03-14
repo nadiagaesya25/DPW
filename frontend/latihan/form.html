@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+</head>
+
+<style>
+    h1,h2,h3{
+       text-align: center; 
+       font-size: 25px;
+    }
+    p{
+        text-align: justify;
+    }
+    section.satu{
+        text-align: right;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+    h4.dua{
+        text-align: right;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+</style>
+
+<body class="container">
+
+    <nav class="satu" style="background-color: rgb(14, 104, 163);"> &nbsp;&nbsp; 
+        <a href="C:\xampp\htdocs\dpw\frontend\latihan\home.html" style="text-decoration: none; color: white;">Home</a> &nbsp;&nbsp; 
+        <a href="C:\xampp\htdocs\dpw\frontend\latihan\aboutme.html" style="text-decoration: none; color: white;">About Me</a> &nbsp;&nbsp; 
+        <a href="C:\xampp\htdocs\dpw\frontend\latihan\cv.html" style="text-decoration: none; color: white;">CV</a> &nbsp;&nbsp; 
+        <a href="C:\xampp\htdocs\dpw\frontend\latihan\form.html" style="text-decoration: none; color: white;">Form</a> &nbsp;&nbsp;
+    </nav>
+
+    <div style="background-color: none; border: 1px solid #17202A; height: auto; margin: 20px 20px; padding: 3px; width: auto;">
+<form>
+    <h1> Form Biodata Diri</h1>
+    <p> Nama  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <input type="text" name="nama"></p>
+    <p> Alamat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <input type="text" name="alamat"></p>
+    <p> Nim &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <input type="text" name="nim"></p>
+    <p> Jenis Kelamin : 
+        <input type="radio" name="jk" value="laki-laki" checked /> 
+            Laki - Laki
+        <input type="radio" name="jk" value="perempuan" /> 
+            Perempuan
+        <br/></p>
+    <p> Agama &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </justify>
+        <input type="checkbox" name="islam"> Islam
+        <input type="checkbox" name="protestan"> Protestan
+        <input type="checkbox" name="katolik"> Katolik <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="hindu"> Hindu
+        <input type="checkbox" name="budha"> Budha
+        <input type="checkbox" name="khonghucu"> Khonghucu
+        <br/> </p>
+    <p> Jurusan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+    <select>
+        <option>Teknik Kimia</option>
+        <option>Teknik Elektro</option>
+        <option>Teknik Informatika</option>
+        <option>Teknik Mesin</option>
+        <option>Arsitektur</option>
+        <option>Teknik Sipil</option>
+    </select>
+    <br/> </p>
+    <!-- button -->
+    <input type="submit" value="Submit" > &nbsp;
+    <input type="reset" value="Reset">
+</form> 
+
+<br>
+<!-- Progres bar -->
+<progress value="75" max="100"></progress></div>
+
+<!-- Audio -->
+    <h2>Memutar Lagu Tiara Andini - Merasa Indah</h2>
+    <center>
+    <audio src="C:\xampp\htdocs\dpw\frontend\latihan\merasaindah.webm" controls></audio>
+    </center>
+
+<br>
+<!-- Video -->
+    <h3>Memutar MV Tiara Andini - Merasa Indah</h3>
+    <center>    
+    <video width="500" controls>
+            <source src="C:\xampp\htdocs\dpw\frontend\latihan\video.mp4" type="video/mp4"></video> 
+    </center>
+<footer>
+
+    <h4 class="dua"> Contact Me </h4> 
+    <section class="satu">
+    <nav>
+        <a href="https://www.instagram.com/nadiagaesyaa/"> <img class=" instagram " src="C:\xampp\htdocs\dpw\frontend\images\ig.png" alt="Instagram" width="25" height="25"> </a>
+        <a href="https://www.facebook.com/profile.php?id=100004897757193"> <img class=" facebook " src="C:\xampp\htdocs\dpw\frontend\images\fb.png" alt="facebook" width="35" height="25"> </a>
+        <a href="https://www.youtube.com/channel/UCYpOCuhimQTpEz0x8ZldxRg"> <img class=" youtube " src="C:\xampp\htdocs\dpw\frontend\images\yt.png" alt="youtube" width="25" height="25"> </a>
+    </nav>
+</section>
+</footer>
+
+</body>
+</html>

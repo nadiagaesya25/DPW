@@ -1,0 +1,20 @@
+body{
+    background-image: url(bghome.png);
+}
+h1,h2,h3{
+    text-align: center; 
+    font-size: 25px;
+ }
+ p{
+     text-align: center;
+ }
+ section.satu{
+     text-align: right;
+     margin-right: 10px;
+     font-size: 25px;
+ }
+ h4.dua{
+     text-align: right;
+     margin-bottom: 10px;
+     font-size: 20px;
+ }

@@ -1,0 +1,68 @@
+    body{
+        background-image: url(bghome.png);
+    }
+    img.tengah{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    figcaption.tengah1{
+        text-align: center;
+    }
+
+    h1.pertama{
+    text-align: center;
+	padding: 10px;
+    }
+
+    p.kedua,p.ketiga,p.keempat{
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    ol.kelima{
+        text-align: justify;
+    }
+
+   
+    h2.ketujuh{
+        margin-bottom: 10px;
+        text-align: right;
+        font-size: 20px;
+    }
+    section.delapan{
+        text-align: right;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+    }
+    .navbar{
+        height: 12%;
+        display: flex;
+        align-items: center;
+    
+    }
+    nav{
+        flex: 1;
+        text-align: right;
+    }
+    nav,ul.nav,li.satu,li.dua,li.tiga,li.juh{
+        list-style: none;
+        display:inline-block;
+        margin-left: 60px;
+    }
+    nav,ul.nav,li.satu,li.dua,li.tiga,li.juh,a.mpat,a.lima,a.nam,a.pan{
+        text-decoration: none;
+        color: rgb(55, 162, 204);
+        font-size: 20px;
+    }
